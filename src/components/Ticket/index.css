@@ -1,0 +1,28 @@
+.list-ticket {
+    width: 90%;    
+    flex-grow: 1;
+    margin-left: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.individual-ticket {
+    background-color: white;
+    width: 50%;
+    height: 40px;
+
+    border-radius: 10px;
+    padding: 0px 8px;
+
+    margin-top: 10px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
